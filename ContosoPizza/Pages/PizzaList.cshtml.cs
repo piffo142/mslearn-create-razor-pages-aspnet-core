@@ -12,7 +12,7 @@ private readonly PizzaService _service;
 
     public PizzaListModel(PizzaService service)
     {
-        _service = service;
+        _service = service; 
     }
 
     public void OnGet()
